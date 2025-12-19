@@ -7,6 +7,9 @@
 *.o
 *.obj
 
+#Ignore exe files
+*.exe
+
 # Precompiled Headers
 *.gch
 *.pch
