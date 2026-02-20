@@ -226,7 +226,7 @@ void ArrayX :: BubbleSortEfficientX(int iOption = INC_ORDER)
 
             for(j = 0; j < iSize - 1 - i; j++)  // Inner
             {
-                if(Arr[j] > Arr[j + 1])
+                if(Arr[j] < Arr[j + 1])
                 {
                     temp = Arr[j];
                     Arr[j] = Arr[j + 1];
